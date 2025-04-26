@@ -1,0 +1,6 @@
+# This file stores the user notes.
+# Example format:
+
+Title: My First Note
+Note: This is an example.
+---

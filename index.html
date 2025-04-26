@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Notes App</title>
+</head>
+<body>
+    <h1>Write a Note</h1>
+    <form action="/submit" method="post">
+        <label for="title">Title:</label><br>
+        <input type="text" name="title" id="title" required><br><br>
+
+        <label for="body">Note:</label><br>
+        <textarea name="body" id="body" rows="5" cols="30" required></textarea><br><br>
+
+        <button type="submit">Save Note</button>
+    </form>
+</body>
+</html>
